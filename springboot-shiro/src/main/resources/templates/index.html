@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1 th:text = "${name}"></h1>
+    <span shiro:hasPermission="user:edit"><a href="/user/edit">编辑页面</a></span>
+    <span shiro:hasPermission="user:add"><a href="/user/add">新增页面</a></span>
+</body>
+</html>
