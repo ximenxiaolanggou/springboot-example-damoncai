@@ -1,21 +1,20 @@
 package com.damoncai.springbootmybatisplus.controller;
 
-import com.damoncai.springbootmybatisplus.mapper.EmployeeMapper;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
+
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
+import org.springframework.stereotype.Controller;
 
-@RestController
+/**
+ * <p>
+ *  前端控制器
+ * </p>
+ *
+ * @author damoncai
+ * @since 2019-05-18
+ */
+@Controller
 @RequestMapping("/employee")
 public class EmployeeController {
-    @Autowired
-    private EmployeeMapper employeeMapper;
 
-    @RequestMapping("/findAll2")
-    public List findAll(){
-        return employeeMapper.findAll();
-    }
 }

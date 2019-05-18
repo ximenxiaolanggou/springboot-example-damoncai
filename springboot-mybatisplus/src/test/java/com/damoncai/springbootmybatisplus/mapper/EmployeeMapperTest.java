@@ -42,7 +42,7 @@ public class EmployeeMapperTest {
         employee.setEmail("123@qq.com");
         employee.setGender("1");
         employee.setAge(20);
-        employee.setMoney(20000.00);
+//        employee.setMoney(20000.00);
         Integer result = employeeMapper.insert(employee);
         System.out.println("result:" + result);
         System.out.println("刚插入数据的主键是:" + employee.getId());
@@ -80,7 +80,7 @@ public class EmployeeMapperTest {
     }
     @Test
     public void page(){
-        IPage<Employee> employeeIPage = employeeMapper.selectPage(new Page<>(1, 3), null);
+        IPage<Employee> employeeIPage = employeeMapper.selectPage(new Page<>(1, 1), null);
         long current = employeeIPage.getCurrent();
         long pages = employeeIPage.getPages();
         List<Employee> records = employeeIPage.getRecords();

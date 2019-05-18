@@ -1,6 +1,8 @@
 package com.damoncai.springbootmybatisplus.entity;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -64,4 +66,25 @@ public class EmployeeTest {
         Integer count = new Employee().selectCount((new QueryWrapper<Employee>().like("last_name", "lang")));
         System.out.println(count);
     }
+
+    @Test
+    public void deleteById(){
+        //删除不存在的数据逻辑上也是true
+        boolean result = new Employee().deleteById(5);
+        System.out.println(result);
+    }
+    @Test
+    public void delete(){
+        Employee employee = new Employee();
+        boolean result = employee.delete(new QueryWrapper<Employee>().like("last_name", "da"));
+        System.out.println(result);
+    }
+
+    @Test
+    public void page(){
+        Employee employee = new Employee();
+        IPage<Employee> employeeIPage = employee.selectPage(new Page<>(1, 1), new QueryWrapper<Employee>().like("last_name", "xiao"));
+        System.out.println(employeeIPage.getRecords());
+    }
+
 }
