@@ -1,0 +1,3 @@
+#是否启动quartz任务扫描器
+quartz:
+  scan: false

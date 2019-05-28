@@ -8,16 +8,26 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-mybatisplus" />
         <module name="springboot-shiro" />
+        <module name="springboot-createdb" />
+        <module name="springboot-quartz" />
+        <module name="springboot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springboot" target="1.8" />
+      <module name="springboot-createdb" target="1.5" />
       <module name="springboot-mybatisplus" target="1.8" />
+      <module name="springboot-mybatisplus (1)" target="1.8" />
+      <module name="springboot-quartz" target="1.8" />
       <module name="springboot-shiro" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot" options="-parameters" />
       <module name="springboot-mybatisplus" options="-parameters" />
+      <module name="springboot-mybatisplus (1)" options="-parameters" />
+      <module name="springboot-quartz" options="-parameters" />
       <module name="springboot-shiro" options="-parameters" />
     </option>
   </component>
