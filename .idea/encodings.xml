@@ -5,5 +5,6 @@
     <file url="file://$PROJECT_DIR$/springboot-mybatisplus" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-quartz" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-shiro" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-upload" charset="UTF-8" />
   </component>
 </project>

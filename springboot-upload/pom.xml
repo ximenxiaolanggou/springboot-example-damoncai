@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.ximen</groupId>
-    <artifactId>springboot-quartz</artifactId>
+    <artifactId>springboot-upload</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-quartz</name>
+    <name>springboot-upload</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -20,8 +20,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.quartz-scheduler</groupId>
-            <artifactId>quartz</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

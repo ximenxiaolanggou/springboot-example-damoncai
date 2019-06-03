@@ -1,4 +1,4 @@
-package com.ximen.springbootquartz;
+package com.ximen.springbootupload;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SpringbootQuartzApplicationTests {
+public class SpringbootUploadApplicationTests {
 
     @Test
     public void contextLoads() {
