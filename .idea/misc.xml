@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/springboot-createdb/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-quartz/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-upload/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/pom.xml" />
       </list>
     </option>
   </component>

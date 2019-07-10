@@ -10,6 +10,7 @@
         <module name="springboot-createdb" />
         <module name="springboot-mybatisplus" />
         <module name="springboot-quartz" />
+        <module name="springboot-rabbitmq" />
         <module name="springboot-shiro" />
         <module name="springboot-upload" />
       </profile>
@@ -20,6 +21,7 @@
       <module name="springboot-mybatisplus" target="1.8" />
       <module name="springboot-mybatisplus (1)" target="1.8" />
       <module name="springboot-quartz" target="1.8" />
+      <module name="springboot-rabbitmq" target="1.8" />
       <module name="springboot-shiro" target="1.8" />
       <module name="springboot-upload" target="1.8" />
     </bytecodeTargetLevel>
