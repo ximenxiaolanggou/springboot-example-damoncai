@@ -16,7 +16,7 @@
         id, last_name, email, gender, age
     </sql>
 
-    <select id="findAll">
+    <select id="findAll" resultType="com.damoncai.springbootmybatisplus.entity.Employee">
 
     </select>
 </mapper>

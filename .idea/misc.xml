@@ -7,9 +7,10 @@
         <option value="$PROJECT_DIR$/springboot-mybatisplus/pom.xml" />
         <option value="$PROJECT_DIR$/springboot/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-createdb/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-quartz/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-upload/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_cxf_server/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-banner/pom.xml" />
       </list>
     </option>
   </component>

@@ -3,13 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springboot/springboot.iml" filepath="$PROJECT_DIR$/springboot/springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-banner/springboot-banner.iml" filepath="$PROJECT_DIR$/springboot-banner/springboot-banner.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-createdb/springboot-createdb.iml" filepath="$PROJECT_DIR$/springboot-createdb/springboot-createdb.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-example-damoncai.iml" filepath="$PROJECT_DIR$/springboot-example-damoncai.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatisplus/springboot-mybatisplus.iml" filepath="$PROJECT_DIR$/springboot-mybatisplus/springboot-mybatisplus.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-quartz/springboot-quartz.iml" filepath="$PROJECT_DIR$/springboot-quartz/springboot-quartz.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" filepath="$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-upload/springboot-upload.iml" filepath="$PROJECT_DIR$/springboot-upload/springboot-upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_cxf_server/springboot_cxf_server.iml" filepath="$PROJECT_DIR$/springboot_cxf_server/springboot_cxf_server.iml" />
     </modules>
   </component>
 </project>

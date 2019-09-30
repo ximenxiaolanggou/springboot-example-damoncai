@@ -15,9 +15,10 @@ public class CodeGenerator {
     public static void main(String[] args) {
         //1.全局配置
         GlobalConfig config = new GlobalConfig();
+        String projectPath = System.getProperty("user.dir");
         config.setActiveRecord(true)//是否支持AR模式
                 .setAuthor("damoncai")//作者
-                .setOutputDir("E:\\MyGitHub\\springboot-example-damoncai\\springboot-mybatisplus\\src\\main\\java")//生成路径
+                .setOutputDir(projectPath + "/src/main/java")//生成路径
                 .setFileOverride(true)//文件覆盖
                 .setIdType(IdType.AUTO)//主键策略
                 .setServiceName("%sService") //设置生成service接口的名字的首字母是否为I

@@ -6,33 +6,43 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot" />
-        <module name="springboot-createdb" />
         <module name="springboot-mybatisplus" />
-        <module name="springboot-quartz" />
+        <module name="springboot-banner" />
+        <module name="springboot-createdb" />
+        <module name="springboot" />
         <module name="springboot-rabbitmq" />
-        <module name="springboot-shiro" />
+        <module name="springboot_cxf_server" />
         <module name="springboot-upload" />
+        <module name="springboot-shiro" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot" target="1.8" />
+      <module name="springboot-banner" target="1.8" />
       <module name="springboot-createdb" target="1.5" />
+      <module name="springboot-exportexcel" target="1.5" />
       <module name="springboot-mybatisplus" target="1.8" />
       <module name="springboot-mybatisplus (1)" target="1.8" />
       <module name="springboot-quartz" target="1.8" />
       <module name="springboot-rabbitmq" target="1.8" />
       <module name="springboot-shiro" target="1.8" />
       <module name="springboot-upload" target="1.8" />
+      <module name="springboot_cxf_server" target="1.6" />
+      <module name="Springbootquartz" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="springboot" options="" />
-      <module name="springboot-mybatisplus" options="" />
+      <module name="Springbootquartz" options="-parameters" />
+      <module name="springboot" options="-parameters" />
+      <module name="springboot-banner" options="-parameters" />
+      <module name="springboot-mybatisplus" options="-parameters" />
       <module name="springboot-mybatisplus (1)" options="-parameters" />
-      <module name="springboot-quartz" options="" />
-      <module name="springboot-shiro" options="" />
+      <module name="springboot-quartz" options="-parameters" />
+      <module name="springboot-rabbitmq" options="-parameters" />
+      <module name="springboot-shiro" options="-parameters" />
+      <module name="springboot-upload" options="-parameters" />
+      <module name="springboot_cxf_server" options="" />
     </option>
   </component>
 </project>
