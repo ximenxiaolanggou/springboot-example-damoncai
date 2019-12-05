@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/springboot-oss/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-websocket/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-security/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-properties/pom.xml" />
       </list>
     </option>
   </component>
