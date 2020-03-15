@@ -14,6 +14,7 @@
         <module name="springboot_cxf_server" />
         <module name="springboot-security" />
         <module name="springboot-properties" />
+        <module name="springboot-kafka" />
         <module name="springboot-createdb" />
         <module name="springboot-upload" />
         <module name="springboot" />
@@ -29,6 +30,7 @@
       <module name="springboot-commandLineRunner" target="1.8" />
       <module name="springboot-createdb" target="1.8" />
       <module name="springboot-exportexcel" target="1.5" />
+      <module name="springboot-kafka" target="1.8" />
       <module name="springboot-mail" target="1.8" />
       <module name="springboot-mybatisplus" target="1.8" />
       <module name="springboot-mybatisplus (1)" target="1.8" />
@@ -50,6 +52,7 @@
       <module name="springboot" options="-parameters" />
       <module name="springboot-banner" options="-parameters" />
       <module name="springboot-commandLineRunner" options="-parameters" />
+      <module name="springboot-kafka" options="-parameters" />
       <module name="springboot-mybatisplus" options="-parameters" />
       <module name="springboot-mybatisplus (1)" options="-parameters" />
       <module name="springboot-properties" options="-parameters" />

@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-commandLineRunner/springboot-commandLineRunner.iml" filepath="$PROJECT_DIR$/springboot-commandLineRunner/springboot-commandLineRunner.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-createdb/springboot-createdb.iml" filepath="$PROJECT_DIR$/springboot-createdb/springboot-createdb.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-example-damoncai.iml" filepath="$PROJECT_DIR$/springboot-example-damoncai.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-kafka/springboot-kafka.iml" filepath="$PROJECT_DIR$/springboot-kafka/springboot-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mail/springboot-mail.iml" filepath="$PROJECT_DIR$/springboot-mail/springboot-mail.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatisplus/springboot-mybatisplus.iml" filepath="$PROJECT_DIR$/springboot-mybatisplus/springboot-mybatisplus.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-oss/springboot-oss.iml" filepath="$PROJECT_DIR$/springboot-oss/springboot-oss.iml" />
