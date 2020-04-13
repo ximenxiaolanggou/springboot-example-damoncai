@@ -1,0 +1,22 @@
+spring:
+  mail:
+    host: smtp.qiye.163.com
+    username: datasmartlab@prinfo.com.cn
+    password: AdqhUJ1BsQuSC1xQ
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true
+          auth: true
+          starttls.enable: true
+          starttls.required: true
+    port: 994
+    test-connection: true
+
+# 为 jasypt 配置解密秘钥
+jasypt:
+  encryptor:
+    password: spring-boot-demo
+server:
+  port: 9898

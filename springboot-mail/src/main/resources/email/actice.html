@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>缴费通知邮件</title>
+    <style type="text/css">
+        p {
+            text-indent: 2em;
+        }
+    </style>
+</head>
+<div>
+    <div id="header"><span th:text="${orgname}"></span>的<span th:text="${username}"></span>用户，您好！</div>
+    <div id="body">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;您在注塑工艺服务平台申请激活的账号<span th:text="${mail}"></span>费，激活失败！<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;请联系客户经理：<span th:text="${manager}"></span>，联系电话：<span th:text="${mobile}"></span>
+    </div>
+    <div id="foot">注塑工艺服务平台</div>
+</div>
+</html>
