@@ -40,6 +40,7 @@ public class ChatServerHandler extends SimpleChannelInboundHandler<String> {
     //读取数据
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, String s) throws Exception {
+        System.out.println(s);
         Channel inChannel = ctx.channel();
         //将消息广播出去
         for(Channel channel : channels){

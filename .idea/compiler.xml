@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-websocket" />
+        <module name="springboot-quartz" />
         <module name="springboot-oss" />
         <module name="springboot-banner" />
         <module name="springboot-mongodb" />
@@ -19,15 +20,18 @@
         <module name="springboot" />
         <module name="springboot-upload" />
         <module name="springboot-commandLineRunner" />
+        <module name="NettyCient" />
         <module name="springboot-elasticsearch" />
         <module name="springboot-mybatisplus" />
         <module name="springboot-mail" />
         <module name="springboot-thread" />
+        <module name="springboot-设计模式" />
         <module name="springboot-shiro" />
         <module name="springboot-createdb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="NettyCient" target="1.8" />
       <module name="spring-boot-commandLineRunner" target="1.5" />
       <module name="springboot" target="1.8" />
       <module name="springboot-banner" target="1.8" />
@@ -50,12 +54,14 @@
       <module name="springboot-thread" target="1.5" />
       <module name="springboot-upload" target="1.8" />
       <module name="springboot-websocket" target="1.8" />
+      <module name="springboot-设计模式" target="1.5" />
       <module name="springboot_cxf_server" target="1.6" />
       <module name="Springbootquartz" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="NettyCient" options="-parameters" />
       <module name="Springbootquartz" options="-parameters" />
       <module name="springboot" options="-parameters" />
       <module name="springboot-banner" options="-parameters" />

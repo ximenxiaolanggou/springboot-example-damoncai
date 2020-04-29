@@ -22,6 +22,9 @@
         <option value="$PROJECT_DIR$/springboot-io/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-thread/pom.xml" />
         <option value="$PROJECT_DIR$/springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-quartz2/pom.xml" />
+        <option value="$PROJECT_DIR$/NettyCient/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-设计模式/pom.xml" />
       </list>
     </option>
   </component>
