@@ -25,6 +25,10 @@
         <option value="$PROJECT_DIR$/springboot-quartz2/pom.xml" />
         <option value="$PROJECT_DIR$/NettyCient/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-设计模式/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-elk/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq2/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq-provider/pom.xml" />
       </list>
     </option>
   </component>

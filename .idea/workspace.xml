@@ -2,89 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e80987ed-9650-4353-8889-a6f68b733f5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_53.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_33.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_33.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_33.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NettyCient/NettyCient.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NettyCient/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NettyCient/src/main/java/com/ximen/client/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NettyCient/src/main/java/com/ximen/client/controller/Send.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NettyCient/src/main/java/com/ximen/client/netty/ChatClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NettyCient/src/main/java/com/ximen/client/netty/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NettyCient/src/main/java/com/ximen/client/netty/ConnectionListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NettyCient/src/main/java/com/ximen/client/netty/InitClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NettyCient/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-quartz/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-quartz/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-设计模式/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-设计模式/springboot-设计模式.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-设计模式/src/main/java/com/ximen/adapter/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-设计模式/src/main/java/com/ximen/adapter/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-设计模式/src/main/java/com/ximen/adapter/IVoltage5V.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-设计模式/src/main/java/com/ximen/adapter/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-设计模式/src/main/java/com/ximen/adapter/Voltage220V.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-设计模式/src/main/java/com/ximen/adapter2/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-设计模式/src/main/java/com/ximen/adapter2/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-设计模式/src/main/java/com/ximen/adapter2/IVoltage5V.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-设计模式/src/main/java/com/ximen/adapter2/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-设计模式/src/main/java/com/ximen/adapter2/Voltage220V.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-设计模式/src/main/java/com/ximen/prototype/CloneSheep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-设计模式/src/main/java/com/ximen/prototype/Sheep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-设计模式/src/main/java/com/ximen/singleton/DoubleCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-设计模式/src/main/java/com/ximen/singleton/StaticInnerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot/springboot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_58.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lmax_disruptor_3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_jul_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j2_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elk/collettor/collettor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elk/collettor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elk/collettor/src/main/java/com/ximen/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elk/collettor/src/main/java/com/ximen/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elk/collettor/src/main/java/com/ximen/entity/InputMDC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elk/collettor/src/main/java/com/ximen/utils/NetUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elk/collettor/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elk/collettor/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elk/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-elk/springboot-elk.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq-consumer/springboot-rabbitmq-consumer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq-consumer/src/main/java/com/ximen/rabbitmq/ConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq-consumer/src/main/java/com/ximen/rabbitmq/direct/EmailConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq-consumer/src/main/java/com/ximen/rabbitmq/direct/EmailReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq-consumer/src/main/java/com/ximen/rabbitmq/fanout/FanoutConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq-consumer/src/main/java/com/ximen/rabbitmq/fanout/FanoutReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq-consumer/src/main/java/com/ximen/rabbitmq/topic/BlogConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq-consumer/src/main/java/com/ximen/rabbitmq/topic/BlogReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq-provider/springboot-rabbitmq-provider.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq-provider/src/main/java/com/ximen/provider/ProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq-provider/src/main/java/com/ximen/provider/direct/EmailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq-provider/src/main/java/com/ximen/provider/fanout/FanoutConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq-provider/src/main/java/com/ximen/provider/fanout/FanoutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq-provider/src/main/java/com/ximen/provider/topic/BlogConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq-provider/src/main/java/com/ximen/provider/topic/BlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq-provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/ximen/rabbitmq/fanout/FanoutCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/ximen/rabbitmq/hello/HelloCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/ximen/rabbitmq/route/RouteCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/ximen/rabbitmq/topic/TopicCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/ximen/rabbitmq/work/WorkCustomer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-io/src/main/java/com/ximen/io/netty/chart/ChatServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-io/src/main/java/com/ximen/io/netty/chart/ChatServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-kafka/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-kafka/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatisplus/src/test/java/com/damoncai/springbootmybatisplus/entity/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatisplus/src/test/java/com/damoncai/springbootmybatisplus/entity/EmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/ximen/rabbitmq/fanout/ConsumerOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/ximen/rabbitmq/fanout/ConsumerThree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/ximen/rabbitmq/fanout/ConsumerTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/ximen/rabbitmq/queues/Consumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/ximen/rabbitmq/topic/ConsumerTopicOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/ximen/rabbitmq/topic/ConsumerTopicThree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/ximen/rabbitmq/topic/ConsumerTopicTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/src/test/java/com/ximen/rabbitmq/RabbitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/test/java/com/ximen/rabbitmq/RabbitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-rabbitmq/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/target/classes/com/ximen/rabbitmq/fanout/ConsumerOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/target/classes/com/ximen/rabbitmq/fanout/ConsumerThree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/target/classes/com/ximen/rabbitmq/fanout/ConsumerTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/target/classes/com/ximen/rabbitmq/queues/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/target/classes/com/ximen/rabbitmq/topic/ConsumerTopicOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/target/classes/com/ximen/rabbitmq/topic/ConsumerTopicThree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/target/classes/com/ximen/rabbitmq/topic/ConsumerTopicTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/target/test-classes/com/ximen/rabbitmq/RabbitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-rabbitmq/target/test-classes/com/ximen/rabbitmq/RabbitTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +148,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/springboot-quartz/src/main/java/com/ximen" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-设计模式/src/main/java/com/ximen/adapter2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/ximen/rabbitmq" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -174,7 +156,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -184,6 +166,23 @@
       <recent name="com.damoncai.springbootmybatisplus.entity" />
       <recent name="com.damoncai.springbootmybatisplus.mapper" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ximen.rabbitmq.fanout" />
+      <recent name="com.ximen.provider.topic" />
+      <recent name="com.ximen.provider" />
+      <recent name="com.ximen.adapter2" />
+      <recent name="com.ximen.client.netty" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\西门小狼狗\5.MyGitHub\springboot-example-damoncai\springboot-rabbitmq\src\main\java\com\ximen\rabbitmq" />
+      <recent name="D:\西门小狼狗\5.MyGitHub\springboot-example-damoncai\springboot-rabbitmq-provider\src\main\java\com\ximen\provider" />
+      <recent name="D:\西门小狼狗\5.MyGitHub\springboot-example-damoncai\springboot-rabbitmq-consumer\src\main\java\com\ximen\rabbitmq\topic" />
+      <recent name="D:\西门小狼狗\5.MyGitHub\springboot-example-damoncai\springboot-rabbitmq-provider\src\main\resources" />
+      <recent name="D:\西门小狼狗\5.MyGitHub\springboot-example-damoncai\springboot-rabbitmq-provider\src\main\java" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\MyGitHub\springboot-example-damoncai\springboot_cxf_server\src\main\resources\mybatis\mybatis" />
       <recent name="C:\Users\Administrator\Desktop\MyGitHub\springboot-example-damoncai\springboot_cxf_server\src\main\resources\mybatis" />
@@ -191,86 +190,68 @@
       <recent name="C:\Users\Administrator\Desktop\MyGitHub\springboot-example-damoncai\springboot-mybatisplus\src\main\java\com\damoncai\springbootmybatisplus\mapper" />
       <recent name="E:\MyGitHub\springboot-example-damoncai\springboot-mybatisplus\src\main\resources\mybatis\mybatis" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.ximen.adapter2" />
-      <recent name="com.ximen.client.netty" />
-      <recent name="com.ximen.io.rpc.client" />
-      <recent name="com.ximen.thread.zconsumerproduct" />
-      <recent name="com.ximen.thread.waitnotify" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\西门小狼狗\5.MyGitHub\springboot-example-damoncai\springboot-设计模式\src\main\java\com\ximen\adapter2" />
-      <recent name="D:\西门小狼狗\5.MyGitHub\springboot-example-damoncai\springboot-quartz2\src\main\resources" />
-      <recent name="D:\西门小狼狗\5.MyGitHub\springboot-example-damoncai\springboot-quartz\src\main\resources" />
-      <recent name="D:\西门小狼狗\5.MyGitHub\springboot-example-damoncai\springboot-io\src\main\java\com\ximen\io\netty" />
-      <recent name="D:\西门小狼狗\5.MyGitHub\springboot-example-damoncai\springboot-io\src\main\java\com\ximen\io\nio" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ximen.adapter2.Client" />
-      <module name="springboot-设计模式" />
+  <component name="RunManager" selected="JUnit.RabbitTest.testHello">
+    <configuration name="RabbitTest.testFanout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-rabbitmq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ximen.adapter2.*" />
+          <option name="PATTERN" value="com.ximen.rabbitmq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.ximen.rabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.ximen.rabbitmq.RabbitTest" />
+      <option name="METHOD_NAME" value="testFanout" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ximen.adapter.Client" />
-      <module name="springboot-设计模式" />
+    <configuration name="RabbitTest.testHello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-rabbitmq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ximen.adapter.*" />
+          <option name="PATTERN" value="com.ximen.rabbitmq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.ximen.rabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.ximen.rabbitmq.RabbitTest" />
+      <option name="METHOD_NAME" value="testHello" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CloneSheep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ximen.prototype.CloneSheep" />
-      <module name="springboot-设计模式" />
+    <configuration name="RabbitTest.testRoute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-rabbitmq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ximen.prototype.*" />
+          <option name="PATTERN" value="com.ximen.rabbitmq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.ximen.rabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.ximen.rabbitmq.RabbitTest" />
+      <option name="METHOD_NAME" value="testRoute" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoubleCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ximen.singleton.DoubleCheck" />
-      <module name="springboot-设计模式" />
+    <configuration name="RabbitTest.testWork" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-rabbitmq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ximen.singleton.*" />
+          <option name="PATTERN" value="com.ximen.rabbitmq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StaticInnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ximen.singleton.StaticInnerClass" />
-      <module name="springboot-设计模式" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ximen.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="com.ximen.rabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.ximen.rabbitmq.RabbitTest" />
+      <option name="METHOD_NAME" value="testWork" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -334,6 +315,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RabbitMqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ximen.rabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ximen.rabbitmq.RabbitMqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ximen.springboot.SpringbootApplication" />
@@ -393,9 +387,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DoubleCheck" />
-      <item itemvalue="Application.StaticInnerClass" />
-      <item itemvalue="Application.CloneSheep" />
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Spring Boot.SpringbootShiroApplication" />
       <item itemvalue="Spring Boot.SpringbootMybatisplusApplication" />
@@ -410,16 +401,19 @@
       <item itemvalue="Spring Boot.Application (1)" />
       <item itemvalue="Spring Boot.SpringbootQuartzApplication (1)" />
       <item itemvalue="Spring Boot.Application (2)" />
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.Client (1)" />
+      <item itemvalue="Spring Boot.RabbitMqApplication" />
+      <item itemvalue="JUnit.RabbitTest.testHello" />
+      <item itemvalue="JUnit.RabbitTest.testWork" />
+      <item itemvalue="JUnit.RabbitTest.testFanout" />
+      <item itemvalue="JUnit.RabbitTest.testRoute" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.CloneSheep" />
-        <item itemvalue="Spring Boot.Application" />
-        <item itemvalue="Application.StaticInnerClass" />
+        <item itemvalue="JUnit.RabbitTest.testHello" />
+        <item itemvalue="Spring Boot.RabbitMqApplication" />
+        <item itemvalue="JUnit.RabbitTest.testRoute" />
+        <item itemvalue="JUnit.RabbitTest.testFanout" />
+        <item itemvalue="JUnit.RabbitTest.testWork" />
       </list>
     </recent_temporary>
   </component>
@@ -476,6 +470,13 @@
       <workItem from="1587016774531" duration="7675000" />
       <workItem from="1587091120037" duration="4737000" />
       <workItem from="1587369184155" duration="3431000" />
+      <workItem from="1588945542354" duration="1643000" />
+      <workItem from="1588999708822" duration="9166000" />
+      <workItem from="1589424558512" duration="622000" />
+      <workItem from="1589443578835" duration="2991000" />
+      <workItem from="1589507684181" duration="1856000" />
+      <workItem from="1590118724779" duration="10077000" />
+      <workItem from="1590286494558" duration="14025000" />
     </task>
     <servers />
   </component>
@@ -501,13 +502,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="676" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586142139653" />
-    <state x="-1155" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1587369943029">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="2685" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1589004718767">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1155" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1587369943029" />
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587040822073" />
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585742260722" />
-    <state x="2685" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584452843151" />
+    <state x="2685" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589004718767" />
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585924935376" />
     <state x="456" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585876060619">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -519,126 +520,131 @@
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587096450486" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585718659424" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583670465930" />
-    <state width="1877" height="393" key="GridCell.Tab.0.bottom" timestamp="1587378974094">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="495" key="GridCell.Tab.0.bottom" timestamp="1590381427872">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="393" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1587378974094" />
     <state width="1877" height="319" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587095146489" />
-    <state width="1877" height="346" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585742980240" />
-    <state width="1877" height="335" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585125349716" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585927095294" />
-    <state width="1877" height="393" key="GridCell.Tab.0.center" timestamp="1587378974093">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="495" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590381427872" />
+    <state width="1877" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589074217759" />
+    <state width="1877" height="370" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590310016119" />
+    <state width="1877" height="495" key="GridCell.Tab.0.center" timestamp="1590381427872">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="393" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1587378974093" />
     <state width="1877" height="319" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587095146489" />
-    <state width="1877" height="346" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585742980239" />
-    <state width="1877" height="335" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585125349716" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585927095294" />
-    <state width="1877" height="393" key="GridCell.Tab.0.left" timestamp="1587378974093">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="495" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590381427872" />
+    <state width="1877" height="344" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589074217758" />
+    <state width="1877" height="370" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590310016119" />
+    <state width="1877" height="495" key="GridCell.Tab.0.left" timestamp="1590381427871">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="393" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1587378974093" />
     <state width="1877" height="319" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587095146489" />
-    <state width="1877" height="346" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585742980239" />
-    <state width="1877" height="335" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585125349716" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585927095294" />
-    <state width="1877" height="393" key="GridCell.Tab.0.right" timestamp="1587378974094">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="495" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590381427871" />
+    <state width="1877" height="344" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589074217757" />
+    <state width="1877" height="370" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590310016118" />
+    <state width="1877" height="495" key="GridCell.Tab.0.right" timestamp="1590381427872">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="393" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1587378974094" />
     <state width="1877" height="319" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587095146489" />
-    <state width="1877" height="346" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585742980240" />
-    <state width="1877" height="335" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585125349716" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585927095294" />
-    <state width="1877" height="393" key="GridCell.Tab.1.bottom" timestamp="1587378974095">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="495" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590381427872" />
+    <state width="1877" height="344" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589074217759" />
+    <state width="1877" height="370" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590310016119" />
+    <state width="1877" height="495" key="GridCell.Tab.1.bottom" timestamp="1590381427721">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="393" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1587378974095" />
     <state width="1877" height="319" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587042147648" />
-    <state width="1877" height="346" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585742979964" />
-    <state width="1877" height="335" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585125349509" />
-    <state width="1877" height="285" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585927095294" />
-    <state width="1877" height="393" key="GridCell.Tab.1.center" timestamp="1587378974095">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="495" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590381427721" />
+    <state width="1877" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589074217766" />
+    <state width="1877" height="370" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590310015994" />
+    <state width="1877" height="495" key="GridCell.Tab.1.center" timestamp="1590381427721">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="393" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1587378974095" />
     <state width="1877" height="319" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587042147648" />
-    <state width="1877" height="346" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585742979964" />
-    <state width="1877" height="335" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585125349509" />
-    <state width="1877" height="285" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585927095294" />
-    <state width="1877" height="393" key="GridCell.Tab.1.left" timestamp="1587378974094">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="495" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590381427721" />
+    <state width="1877" height="344" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589074217764" />
+    <state width="1877" height="370" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590310015994" />
+    <state width="1877" height="495" key="GridCell.Tab.1.left" timestamp="1590381427721">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="393" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1587378974094" />
     <state width="1877" height="319" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587042147648" />
-    <state width="1877" height="346" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585742979964" />
-    <state width="1877" height="335" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585125349509" />
-    <state width="1877" height="285" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585927095294" />
-    <state width="1877" height="393" key="GridCell.Tab.1.right" timestamp="1587378974095">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="495" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590381427721" />
+    <state width="1877" height="344" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589074217764" />
+    <state width="1877" height="370" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590310015994" />
+    <state width="1877" height="495" key="GridCell.Tab.1.right" timestamp="1590381427721">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="393" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1587378974095" />
     <state width="1877" height="319" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587042147648" />
-    <state width="1877" height="346" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585742979964" />
-    <state width="1877" height="335" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585125349509" />
-    <state width="1877" height="285" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585927095294" />
-    <state width="1860" height="210" key="GridCell.Tab.2.bottom" timestamp="1587105220421">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="495" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590381427721" />
+    <state width="1877" height="344" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589074217765" />
+    <state width="1877" height="370" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590310015994" />
+    <state width="1877" height="2" key="GridCell.Tab.2.bottom" timestamp="1590371964614">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1860" height="210" key="GridCell.Tab.2.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1587105220421" />
     <state width="1877" height="69" key="GridCell.Tab.2.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587041039834" />
-    <state width="1877" height="464" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585741293025" />
-    <state width="1877" height="210" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583672785263" />
-    <state width="1860" height="210" key="GridCell.Tab.2.center" timestamp="1587105220421">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="2" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590371964614" />
+    <state width="1877" height="344" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589074217771" />
+    <state width="1877" height="370" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590310015994" />
+    <state width="1877" height="2" key="GridCell.Tab.2.center" timestamp="1590371964614">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1860" height="210" key="GridCell.Tab.2.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1587105220421" />
     <state width="1877" height="69" key="GridCell.Tab.2.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587041039833" />
-    <state width="1877" height="464" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585741293025" />
-    <state width="1877" height="210" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583672785263" />
-    <state width="1860" height="210" key="GridCell.Tab.2.left" timestamp="1587105220421">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="2" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590371964614" />
+    <state width="1877" height="344" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589074217769" />
+    <state width="1877" height="370" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590310015994" />
+    <state width="1877" height="2" key="GridCell.Tab.2.left" timestamp="1590371964614">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1860" height="210" key="GridCell.Tab.2.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1587105220421" />
     <state width="1877" height="69" key="GridCell.Tab.2.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587041039833" />
-    <state width="1877" height="464" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585741293025" />
-    <state width="1877" height="210" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583672785263" />
-    <state width="1860" height="210" key="GridCell.Tab.2.right" timestamp="1587105220421">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="2" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590371964614" />
+    <state width="1877" height="344" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589074217767" />
+    <state width="1877" height="370" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590310015994" />
+    <state width="1877" height="2" key="GridCell.Tab.2.right" timestamp="1590371964614">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1860" height="210" key="GridCell.Tab.2.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1587105220421" />
     <state width="1877" height="69" key="GridCell.Tab.2.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587041039833" />
-    <state width="1877" height="464" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585741293025" />
-    <state width="1877" height="210" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583672785263" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1586846344362">
+    <state width="1877" height="2" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590371964614" />
+    <state width="1877" height="344" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589074217770" />
+    <state width="1877" height="370" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590310015994" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1590282626850">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586846344362" />
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585113970084" />
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584885478049" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586961125141">
+    <state x="2381" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589003582797" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590282626850" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1590286508163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586137406977" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585183586967" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586961125141" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590286508163" />
     <state x="636" y="253" width="647" height="534" key="find.popup" timestamp="1587094432820">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="636" y="253" width="647" height="534" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587094432820" />
-    <state x="334" y="215" key="new project wizard" timestamp="1586951250935">
+    <state x="334" y="215" key="new project wizard" timestamp="1590282962951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="215" key="new project wizard/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586951250935" />
     <state x="334" y="215" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585738603297" />
-    <state x="2254" y="215" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584449259686" />
-    <state x="334" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584269690682" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1586846830109">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2254" y="215" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589003466565" />
+    <state x="334" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1590282962951" />
+    <state x="2536" y="240" key="run.anything.popup" timestamp="1589014943914">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586846830109" />
-    <state x="2536" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584449943819" />
+    <state x="2536" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589014943914" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585742033995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -13,27 +13,33 @@ public class RabbitTest {
     @Autowired
     private RabbitTemplate rabbitTemplate;
 
-    /**
-     * 直连
-     */
     @Test
-    public void testQueues(){
-        rabbitTemplate.convertAndSend("itcast","我要红包");
+    public void testHello(){
+        rabbitTemplate.convertAndSend("futabaState","hello world");
     }
 
-    /**
-     * 分裂
-     */
+    @Test
+    public void testWork(){
+        for (int i = 0; i < 10; i++) {
+            rabbitTemplate.convertAndSend("work","work模型"+i);
+        }
+    }
+    //fanout 广播
     @Test
     public void testFanout(){
-        rabbitTemplate.convertAndSend("heima", "", "biubiubiu");
+        rabbitTemplate.convertAndSend("logs","","Fanout的模型发送的消息");
     }
 
-    /**
-     * 主题
-     */
+    //route 路由模式
+    @Test
+    public void testRoute(){
+        rabbitTemplate.convertAndSend("directs","error","发送info的key的路由信息");
+    }
+
+    //topic 动态路由  订阅模式
     @Test
     public void testTopic(){
-        rabbitTemplate.convertAndSend("ximen", "good.qwe", "biubiubiu");
+        rabbitTemplate.convertAndSend("topics","product.save.add","produce.save.add 路由消息");
     }
+
 }

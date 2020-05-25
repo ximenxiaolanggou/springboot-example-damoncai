@@ -1,5 +1,6 @@
 package com.damoncai.springbootmybatisplus.entity;
 
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
@@ -83,7 +84,8 @@ public class EmployeeTest {
     @Test
     public void page(){
         Employee employee = new Employee();
-        IPage<Employee> employeeIPage = employee.selectPage(new Page<>(1, 1), new QueryWrapper<Employee>().like("last_name", "xiao"));
+        IPage<Employee> employeeIPage = employee.selectPage(new Page<>(1, 1), new LambdaQueryWrapper<Employee>().eq(Employee::getAge,10));
+        IPage<Employee> employeeIPage2 = employee.selectPage(new Page<>(1, 1), new QueryWrapper<Employee>().like("last_name", "xiao"));
         System.out.println(employeeIPage.getRecords());
     }
 

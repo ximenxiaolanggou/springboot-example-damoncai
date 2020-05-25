@@ -6,31 +6,37 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-rabbitmq-provider" />
         <module name="springboot-websocket" />
+        <module name="springboot-设计模式" />
         <module name="springboot-quartz" />
         <module name="springboot-oss" />
+        <module name="springboot-rabbitmq-consumer" />
         <module name="springboot-banner" />
         <module name="springboot-mongodb" />
         <module name="springboot-io" />
-        <module name="springboot-security" />
-        <module name="springboot-rabbitmq" />
+        <module name="springboot-shiro" />
+        <module name="collettor" />
         <module name="springboot_cxf_server" />
-        <module name="springboot-kafka" />
+        <module name="springboot-security" />
         <module name="springboot-properties" />
-        <module name="springboot" />
+        <module name="springboot-kafka" />
+        <module name="springboot-createdb" />
         <module name="springboot-upload" />
-        <module name="springboot-commandLineRunner" />
-        <module name="NettyCient" />
+        <module name="springboot" />
+        <module name="com.ximen.elk" />
         <module name="springboot-elasticsearch" />
         <module name="springboot-mybatisplus" />
         <module name="springboot-mail" />
+        <module name="springboot-rabbitmq" />
         <module name="springboot-thread" />
-        <module name="springboot-设计模式" />
-        <module name="springboot-shiro" />
-        <module name="springboot-createdb" />
+        <module name="springboot-commandLineRunner" />
+        <module name="NettyCient" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="collettor" target="1.8" />
+      <module name="com.ximen.elk" target="1.5" />
       <module name="NettyCient" target="1.8" />
       <module name="spring-boot-commandLineRunner" target="1.5" />
       <module name="springboot" target="1.8" />
@@ -38,6 +44,7 @@
       <module name="springboot-commandLineRunner" target="1.8" />
       <module name="springboot-createdb" target="1.5" />
       <module name="springboot-elasticsearch" target="1.8" />
+      <module name="springboot-elk" target="1.8" />
       <module name="springboot-exportexcel" target="1.5" />
       <module name="springboot-io" target="1.5" />
       <module name="springboot-kafka" target="1.8" />
@@ -49,6 +56,8 @@
       <module name="springboot-properties" target="1.8" />
       <module name="springboot-quartz" target="1.8" />
       <module name="springboot-rabbitmq" target="1.8" />
+      <module name="springboot-rabbitmq-consumer" target="1.8" />
+      <module name="springboot-rabbitmq-provider" target="1.8" />
       <module name="springboot-security" target="1.8" />
       <module name="springboot-shiro" target="1.8" />
       <module name="springboot-thread" target="1.5" />
@@ -63,6 +72,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="NettyCient" options="-parameters" />
       <module name="Springbootquartz" options="-parameters" />
+      <module name="collettor" options="-parameters" />
       <module name="springboot" options="-parameters" />
       <module name="springboot-banner" options="-parameters" />
       <module name="springboot-commandLineRunner" options="-parameters" />
@@ -73,6 +83,8 @@
       <module name="springboot-properties" options="-parameters" />
       <module name="springboot-quartz" options="-parameters" />
       <module name="springboot-rabbitmq" options="-parameters" />
+      <module name="springboot-rabbitmq-consumer" options="-parameters" />
+      <module name="springboot-rabbitmq-provider" options="-parameters" />
       <module name="springboot-security" options="-parameters" />
       <module name="springboot-shiro" options="-parameters" />
       <module name="springboot-upload" options="-parameters" />

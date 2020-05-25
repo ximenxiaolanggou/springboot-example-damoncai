@@ -1,3 +1,8 @@
 spring:
+  application:
+    name: edge-futaba
   rabbitmq:
-    host: 192.168.136.129
+    host: 192.168.1.102
+    username: prinfo
+    password: prinfo
+    virtual-host: prinfo

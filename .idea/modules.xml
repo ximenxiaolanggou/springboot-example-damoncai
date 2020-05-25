@@ -3,11 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/NettyCient/NettyCient.iml" filepath="$PROJECT_DIR$/NettyCient/NettyCient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-elk/collettor/collettor.iml" filepath="$PROJECT_DIR$/springboot-elk/collettor/collettor.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot/springboot.iml" filepath="$PROJECT_DIR$/springboot/springboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-banner/springboot-banner.iml" filepath="$PROJECT_DIR$/springboot-banner/springboot-banner.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-commandLineRunner/springboot-commandLineRunner.iml" filepath="$PROJECT_DIR$/springboot-commandLineRunner/springboot-commandLineRunner.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-createdb/springboot-createdb.iml" filepath="$PROJECT_DIR$/springboot-createdb/springboot-createdb.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-elasticsearch/springboot-elasticsearch.iml" filepath="$PROJECT_DIR$/springboot-elasticsearch/springboot-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-elk/springboot-elk.iml" filepath="$PROJECT_DIR$/springboot-elk/springboot-elk.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-example-damoncai.iml" filepath="$PROJECT_DIR$/springboot-example-damoncai.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-io/springboot-io.iml" filepath="$PROJECT_DIR$/springboot-io/springboot-io.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-kafka/springboot-kafka.iml" filepath="$PROJECT_DIR$/springboot-kafka/springboot-kafka.iml" />
@@ -18,6 +20,8 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-properties/springboot-properties.iml" filepath="$PROJECT_DIR$/springboot-properties/springboot-properties.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-quartz/springboot-quartz.iml" filepath="$PROJECT_DIR$/springboot-quartz/springboot-quartz.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq-consumer/springboot-rabbitmq-consumer.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq-consumer/springboot-rabbitmq-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq-provider/springboot-rabbitmq-provider.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq-provider/springboot-rabbitmq-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-security/springboot-security.iml" filepath="$PROJECT_DIR$/springboot-security/springboot-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" filepath="$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-thread/springboot-thread.iml" filepath="$PROJECT_DIR$/springboot-thread/springboot-thread.iml" />
