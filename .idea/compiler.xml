@@ -7,30 +7,30 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-websocket" />
+        <module name="springboot-设计模式" />
         <module name="springboot-quartz" />
         <module name="springboot-oss" />
         <module name="springboot-rabbitmq-consumer" />
         <module name="springboot-banner" />
-        <module name="springboot-commandLineRunner" />
-        <module name="springboot-mail" />
-        <module name="springboot-io" />
-        <module name="collettor" />
         <module name="springboot-mongodb" />
-        <module name="springboot-thread" />
+        <module name="springboot-io" />
+        <module name="springboot-shiro" />
+        <module name="collettor" />
         <module name="springboot-security" />
-        <module name="springboot-properties" />
+        <module name="springboot" />
         <module name="springboot-kafka" />
+        <module name="springboot-properties" />
         <module name="springboot-createdb" />
         <module name="springboot-upload" />
-        <module name="springboot" />
+        <module name="springboot-commandLineRunner" />
         <module name="com.ximen.elk" />
         <module name="springboot_cxf_server" />
         <module name="springboot-elasticsearch" />
         <module name="springboot-mybatisplus" />
+        <module name="springboot-mail" />
+        <module name="springboot-thread" />
         <module name="springboot-rabbitmq-provider" />
         <module name="springboot-rabbitmq" />
-        <module name="springboot-设计模式" />
-        <module name="springboot-shiro" />
         <module name="NettyCient" />
       </profile>
     </annotationProcessing>
@@ -63,7 +63,7 @@
       <module name="springboot-thread" target="8" />
       <module name="springboot-upload" target="1.8" />
       <module name="springboot-websocket" target="1.8" />
-      <module name="springboot-设计模式" target="1.5" />
+      <module name="springboot-设计模式" target="7" />
       <module name="springboot_cxf_server" target="1.6" />
       <module name="Springbootquartz" target="1.8" />
     </bytecodeTargetLevel>
