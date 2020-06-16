@@ -1,0 +1,2 @@
+[2020-05-09T14:21:40.902+08:00] [WARN] [http-nio-8001-exec-1-33] [com.ximen.controller.MainController] [Max-DELL] [192.168.1.1] [collector] [MainController.java,23,com.ximen.controller.MainController,test] [this is warn] ## ''
+[2020-05-09T14:21:40.902+08:00] [ERROR] [http-nio-8001-exec-1-33] [com.ximen.controller.MainController] [Max-DELL] [192.168.1.1] [collector] [MainController.java,24,com.ximen.controller.MainController,test] [this is error] ## ''
