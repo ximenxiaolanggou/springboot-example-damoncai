@@ -12,9 +12,9 @@ import java.util.Scanner;
 public class TcpClient {
 
     public static void main(String[] args) throws Exception {
+        Socket socket = new Socket("127.0.0.1",9999);
         while (true){
             //1.创建Socker对象
-            Socket socket = new Socket("127.0.0.1",9999);
             //2.从连接中获取输出流并发消息
             OutputStream os = socket.getOutputStream();
             System.out.println("请输入：");

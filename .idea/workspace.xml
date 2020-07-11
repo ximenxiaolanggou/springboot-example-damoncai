@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e80987ed-9650-4353-8889-a6f68b733f5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot-设计模式/src/main/java/com/ximen/_3/factory/_1/simplefactory/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-设计模式/src/main/java/com/ximen/_3/factory/_1/simplefactory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-设计模式/src/main/java/com/ximen/_3/factory/_1/simplefactory/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-设计模式/src/main/java/com/ximen/_3/factory/_1/simplefactory/SimpleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-设计模式/src/main/java/com/ximen/_3/factory/_1/simplefactory/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="e80987ed-9650-4353-8889-a6f68b733f5a" name="Default Changelist" comment="策略模式和静态工厂">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-设计模式/src/main/java/com/ximen/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-设计模式/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-设计模式/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NettyCient/NettyCient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NettyCient/NettyCient.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-io/springboot-io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-io/springboot-io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-io/src/main/java/com/ximen/io/bio/TcpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-io/src/main/java/com/ximen/io/bio/TcpClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-io/src/main/java/com/ximen/io/bio/TcpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-io/src/main/java/com/ximen/io/bio/TcpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-io/src/main/java/com/ximen/io/nio/file/nio.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-io/src/main/java/com/ximen/io/nio/file/nio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-io/target/classes/com/ximen/io/bio/TcpClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-io/target/classes/com/ximen/io/bio/TcpClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-io/target/classes/com/ximen/io/bio/TcpServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-io/target/classes/com/ximen/io/bio/TcpServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-io/target/classes/com/ximen/io/netty/chart/ChatServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-io/target/classes/com/ximen/io/netty/chart/ChatServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-thread/springboot-thread.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-thread/springboot-thread.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-设计模式/springboot-设计模式.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-设计模式/springboot-设计模式.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +42,9 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="springboot-example-damoncai" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -141,13 +148,13 @@
       <recent name="D:\西门小狼狗\5.MyGitHub\springboot-example-damoncai\springboot-rabbitmq-provider\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Adapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ximen.adapter.Adapter" />
+  <component name="RunManager" selected="Application.NettyServer">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ximen.Main" />
       <module name="springboot-设计模式" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ximen.adapter.*" />
+          <option name="PATTERN" value="com.ximen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ximen._3.factory._1.simplefactory.Main" />
-      <module name="springboot-设计模式" />
+    <configuration name="NIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ximen.io.nio.socket.NIOServer" />
+      <module name="springboot-io" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ximen._3.factory._1.simplefactory.*" />
+          <option name="PATTERN" value="com.ximen.io.nio.socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,14 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.ximen._2.strategy.Sort" />
-      <module name="springboot-设计模式" />
+    <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ximen.io.netty.basic.NettyServer" />
+      <module name="springboot-io" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ximen._2.strategy.*" />
+          <option name="PATTERN" value="com.ximen.io.netty.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,12 +188,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ximen.thread.Test" />
-      <module name="springboot-thread" />
+    <configuration name="TcpClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ximen.io.bio.TcpClient" />
+      <module name="springboot-io" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ximen.thread.*" />
+          <option name="PATTERN" value="com.ximen.io.bio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TcpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ximen.io.bio.TcpServer" />
+      <module name="springboot-io" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ximen.io.bio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -255,19 +273,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RabbitMqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot-rabbitmq" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ximen.rabbitmq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ximen.rabbitmq.RabbitMqApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ximen.springboot.SpringbootApplication" />
@@ -327,9 +332,10 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Adapter" />
-      <item itemvalue="Application.Sort" />
+      <item itemvalue="Application.TcpServer" />
+      <item itemvalue="Application.TcpClient" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.NIOServer" />
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Spring Boot.SpringbootShiroApplication" />
       <item itemvalue="Spring Boot.SpringbootMybatisplusApplication" />
@@ -344,16 +350,15 @@
       <item itemvalue="Spring Boot.Application (1)" />
       <item itemvalue="Spring Boot.SpringbootQuartzApplication (1)" />
       <item itemvalue="Spring Boot.Application (2)" />
-      <item itemvalue="Spring Boot.RabbitMqApplication" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.NettyServer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Sort" />
-        <item itemvalue="Application.Adapter" />
-        <item itemvalue="Spring Boot.RabbitMqApplication" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.NettyServer" />
+        <item itemvalue="Application.NIOServer" />
+        <item itemvalue="Application.TcpClient" />
+        <item itemvalue="Application.TcpServer" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -424,7 +429,32 @@
       <workItem from="1591756511575" duration="2011000" />
       <workItem from="1591880630929" duration="619000" />
       <workItem from="1592037661323" duration="20186000" />
-      <workItem from="1592276120451" duration="1479000" />
+      <workItem from="1592276120451" duration="2864000" />
+      <workItem from="1592286752009" duration="1558000" />
+      <workItem from="1592465577855" duration="734000" />
+      <workItem from="1592471606984" duration="1868000" />
+      <workItem from="1592538431746" duration="5828000" />
+      <workItem from="1592639572193" duration="1448000" />
+      <workItem from="1592711119735" duration="6650000" />
+      <workItem from="1592787337131" duration="1808000" />
+      <workItem from="1592835903522" duration="1960000" />
+      <workItem from="1592874174894" duration="4328000" />
+      <workItem from="1592894820420" duration="1624000" />
+      <workItem from="1593263590406" duration="1113000" />
+      <workItem from="1593328189261" duration="618000" />
+      <workItem from="1593354759608" duration="746000" />
+      <workItem from="1593615572249" duration="189000" />
+      <workItem from="1593650328107" duration="4797000" />
+      <workItem from="1593680918393" duration="871000" />
+      <workItem from="1593765286239" duration="4178000" />
+      <workItem from="1593786546355" duration="1725000" />
+      <workItem from="1593826788343" duration="9218000" />
+      <workItem from="1593874248310" duration="1200000" />
+      <workItem from="1593912295835" duration="6184000" />
+      <workItem from="1594029162233" duration="4236000" />
+      <workItem from="1594189437541" duration="10000" />
+      <workItem from="1594194202376" duration="922000" />
+      <workItem from="1594439424525" duration="2124000" />
     </task>
     <task id="LOCAL-00001" summary="单例">
       <created>1592107468439</created>
@@ -433,7 +463,21 @@
       <option name="project" value="LOCAL" />
       <updated>1592107468439</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="策略模式和静态工厂">
+      <created>1592278788181</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592278788181</updated>
+    </task>
+    <task id="LOCAL-00003" summary="策略模式和静态工厂">
+      <created>1592278850181</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592278850181</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,7 +485,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="单例" />
-    <option name="LAST_COMMIT_MESSAGE" value="单例" />
+    <MESSAGE value="策略模式和静态工厂" />
+    <option name="LAST_COMMIT_MESSAGE" value="策略模式和静态工厂" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Inspections" timestamp="1586142753023">
@@ -453,102 +498,101 @@
     </state>
     <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586951266642" />
     <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592278753791" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592276251072">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593653295262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587040879612" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592276251072" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593653295262" />
     <state x="676" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586142139653">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="676" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586142139653" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1592275961368">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2685" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1592550446917">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1155" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1587369943029" />
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587040822073" />
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592275961368" />
-    <state x="2685" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589004718767" />
+    <state x="2685" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592550446917" />
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585924935376" />
     <state x="456" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585876060619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="456" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585876060619" />
-    <state x="421" y="112" key="CommitChangelistDialog2" timestamp="1592278786354">
+    <state x="421" y="112" key="CommitChangelistDialog2" timestamp="1592279362249">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="421" y="112" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592278786354" />
-    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1591069075917">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="421" y="112" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592279362249" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1593651480348">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587096450486" />
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585718659424" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593651480348" />
     <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591069075917" />
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583670465930" />
-    <state width="1877" height="350" key="GridCell.Tab.0.bottom" timestamp="1592278791558">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1860" height="398" key="GridCell.Tab.0.bottom" timestamp="1594441304973">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="393" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1587378974094" />
     <state width="1877" height="319" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587095146489" />
-    <state width="1877" height="350" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592278791558" />
-    <state width="1877" height="480" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591061102763" />
-    <state width="1877" height="370" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590310016119" />
-    <state width="1877" height="350" key="GridCell.Tab.0.center" timestamp="1592278791558">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="324" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593681173835" />
+    <state width="1860" height="398" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594441304973" />
+    <state width="1877" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593875527581" />
+    <state width="1860" height="398" key="GridCell.Tab.0.center" timestamp="1594441304972">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="393" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1587378974093" />
     <state width="1877" height="319" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587095146489" />
-    <state width="1877" height="350" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592278791558" />
-    <state width="1877" height="480" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591061102763" />
-    <state width="1877" height="370" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590310016119" />
-    <state width="1877" height="350" key="GridCell.Tab.0.left" timestamp="1592278791557">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="324" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593681173835" />
+    <state width="1860" height="398" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594441304972" />
+    <state width="1877" height="250" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593875527581" />
+    <state width="1860" height="398" key="GridCell.Tab.0.left" timestamp="1594441304972">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="393" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1587378974093" />
     <state width="1877" height="319" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587095146489" />
-    <state width="1877" height="350" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592278791557" />
-    <state width="1877" height="480" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591061102763" />
-    <state width="1877" height="370" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590310016118" />
-    <state width="1877" height="350" key="GridCell.Tab.0.right" timestamp="1592278791558">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="324" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593681173835" />
+    <state width="1860" height="398" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594441304972" />
+    <state width="1877" height="250" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593875527580" />
+    <state width="1860" height="398" key="GridCell.Tab.0.right" timestamp="1594441304973">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="393" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1587378974094" />
     <state width="1877" height="319" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587095146489" />
-    <state width="1877" height="350" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592278791558" />
-    <state width="1877" height="480" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591061102763" />
-    <state width="1877" height="370" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590310016119" />
-    <state width="1877" height="350" key="GridCell.Tab.1.bottom" timestamp="1592278791558">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="324" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593681173835" />
+    <state width="1860" height="398" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594441304973" />
+    <state width="1877" height="250" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593875527581" />
+    <state width="1860" height="398" key="GridCell.Tab.1.bottom" timestamp="1594441306333">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="393" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1587378974095" />
     <state width="1877" height="319" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587042147648" />
-    <state width="1877" height="350" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592278791558" />
-    <state width="1877" height="480" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591061102592" />
-    <state width="1877" height="370" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590310015994" />
-    <state width="1877" height="350" key="GridCell.Tab.1.center" timestamp="1592278791558">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="324" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593681173836" />
+    <state width="1860" height="398" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594441306333" />
+    <state width="1877" height="250" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593875527581" />
+    <state width="1860" height="398" key="GridCell.Tab.1.center" timestamp="1594441306333">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="393" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1587378974095" />
     <state width="1877" height="319" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587042147648" />
-    <state width="1877" height="350" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592278791558" />
-    <state width="1877" height="480" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591061102592" />
-    <state width="1877" height="370" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590310015994" />
-    <state width="1877" height="350" key="GridCell.Tab.1.left" timestamp="1592278791558">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="324" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593681173835" />
+    <state width="1860" height="398" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594441306333" />
+    <state width="1877" height="250" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593875527581" />
+    <state width="1860" height="398" key="GridCell.Tab.1.left" timestamp="1594441306333">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="393" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1587378974094" />
     <state width="1877" height="319" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587042147648" />
-    <state width="1877" height="350" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592278791558" />
-    <state width="1877" height="480" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591061102592" />
-    <state width="1877" height="370" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590310015994" />
-    <state width="1877" height="350" key="GridCell.Tab.1.right" timestamp="1592278791558">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="324" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593681173835" />
+    <state width="1860" height="398" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594441306333" />
+    <state width="1877" height="250" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593875527581" />
+    <state width="1860" height="398" key="GridCell.Tab.1.right" timestamp="1594441306333">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="393" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1587378974095" />
     <state width="1877" height="319" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587042147648" />
-    <state width="1877" height="350" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592278791558" />
-    <state width="1877" height="480" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591061102592" />
-    <state width="1877" height="370" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590310015994" />
+    <state width="1877" height="324" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593681173836" />
+    <state width="1860" height="398" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594441306333" />
+    <state width="1877" height="250" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593875527581" />
     <state width="1877" height="480" key="GridCell.Tab.2.bottom" timestamp="1591061102593">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -581,6 +625,10 @@
     <state width="1877" height="418" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591004597038" />
     <state width="1877" height="480" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591061102593" />
     <state width="1877" height="370" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590310015994" />
+    <state x="589" y="233" key="RollbackChangesDialog" timestamp="1593651176523">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="589" y="233" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593651176523" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1592276349662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -588,26 +636,27 @@
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592276349662" />
     <state x="2381" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589003582797" />
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590282626850" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1590286508163">
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1593912322960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586137406977" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585183586967" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590286508163" />
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592278599841">
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593912322960" />
+    <state x="2560" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592787336958" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593874279833" />
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592278869180">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592278599841" />
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592278869180" />
     <state x="636" y="253" width="647" height="534" key="find.popup" timestamp="1591162691596">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="636" y="253" width="647" height="534" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587094432820" />
     <state x="636" y="253" width="647" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591162691596" />
-    <state x="334" y="215" key="new project wizard" timestamp="1590282962951">
+    <state x="334" y="215" key="new project wizard" timestamp="1593651535745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="215" key="new project wizard/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1586951250935" />
-    <state x="334" y="215" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585738603297" />
+    <state x="334" y="215" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593651535745" />
     <state x="2254" y="215" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589003466565" />
     <state x="334" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1590282962951" />
     <state x="2536" y="240" key="run.anything.popup" timestamp="1589014943914">
@@ -618,11 +667,17 @@
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591061185864">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585742033995" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591061185864" />
-    <state x="472" y="203" key="spring file set editor" timestamp="1583644281759">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="472" y="203" key="spring file set editor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583644281759" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-io/src/main/java/com/ximen/io/netty/basic/NettyServer.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

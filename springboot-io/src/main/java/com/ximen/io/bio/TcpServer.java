@@ -13,10 +13,10 @@ public class TcpServer {
     public static void main(String[] args) throws Exception {
         //1.创建ServerSocket对象
         ServerSocket ss = new ServerSocket(9999);
-
         while (true){
             //2.监听客户端
             Socket socket = ss.accept();//阻塞
+            System.out.println(socket.getRemoteSocketAddress() + "连接..");
             //3.从连接中取出输入流来接收消息
             InputStream is = socket.getInputStream();//阻塞
             byte[] b = new byte[100];

@@ -44,10 +44,10 @@ public class nio {
         FileChannel channel = fis.getChannel();
         //3.准备个缓冲区
         ByteBuffer buffer = ByteBuffer.allocate((int) file.length());
-        //4.从通道里读取数据并保存到缓冲区中
+        //5.从通道里读取数据并保存到缓冲区中
         channel.read(buffer);
         System.out.println(new String(buffer.array()));
-        //5.关闭
+        //6.关闭
         fis.close();
     }
 
