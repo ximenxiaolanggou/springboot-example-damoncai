@@ -29,6 +29,8 @@
         <option value="$PROJECT_DIR$/springboot-rabbitmq2/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-rabbitmq-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-rabbitmq-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-JDK8/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-OAuth2/pom.xml" />
       </list>
     </option>
   </component>

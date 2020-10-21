@@ -6,37 +6,46 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-mybatisplus" />
+        <module name="com.ximen.elk" />
         <module name="springboot-websocket" />
-        <module name="springboot-设计模式" />
-        <module name="springboot-quartz" />
         <module name="springboot-oss" />
+        <module name="springboot-io" />
+        <module name="collettor" />
+        <module name="springboot-rabbitmq" />
+        <module name="springboot_cxf_server" />
+        <module name="springboot-properties" />
+        <module name="springboot-elasticsearch" />
+        <module name="distributed‐security‐order" />
+        <module name="springboot-mail" />
+        <module name="springboot-security" />
+        <module name="springboot-quartz" />
+        <module name="springboot-thread" />
+        <module name="springboot" />
+        <module name="NettyCient" />
+        <module name="springboot-shiro" />
+        <module name="distributed‐security‐eureka" />
+        <module name="springboot-rabbitmq-provider" />
+        <module name="springboot-JDK8" />
+        <module name="distributed-security-uaa" />
+        <module name="springboot-commandLineRunner" />
+        <module name="springboot-设计模式" />
+        <module name="springboot-kafka" />
+        <module name="springboot-upload" />
         <module name="springboot-rabbitmq-consumer" />
+        <module name="springboot-createdb" />
+        <module name="distributed‐security‐zuul" />
         <module name="springboot-banner" />
         <module name="springboot-mongodb" />
-        <module name="springboot-io" />
-        <module name="springboot-shiro" />
-        <module name="collettor" />
-        <module name="springboot-security" />
-        <module name="springboot" />
-        <module name="springboot-kafka" />
-        <module name="springboot-properties" />
-        <module name="springboot-createdb" />
-        <module name="springboot-upload" />
-        <module name="springboot-commandLineRunner" />
-        <module name="com.ximen.elk" />
-        <module name="springboot_cxf_server" />
-        <module name="springboot-elasticsearch" />
-        <module name="springboot-mybatisplus" />
-        <module name="springboot-mail" />
-        <module name="springboot-thread" />
-        <module name="springboot-rabbitmq-provider" />
-        <module name="springboot-rabbitmq" />
-        <module name="NettyCient" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="collettor" target="1.8" />
       <module name="com.ximen.elk" target="1.5" />
+      <module name="distributed-security-uaa" target="1.8" />
+      <module name="distributed‐security‐eureka" target="1.8" />
+      <module name="distributed‐security‐order" target="1.8" />
+      <module name="distributed‐security‐zuul" target="1.8" />
       <module name="NettyCient" target="1.8" />
       <module name="spring-boot-commandLineRunner" target="1.5" />
       <module name="springboot" target="1.8" />
@@ -47,11 +56,13 @@
       <module name="springboot-elk" target="1.8" />
       <module name="springboot-exportexcel" target="1.5" />
       <module name="springboot-io" target="1.5" />
+      <module name="springboot-JDK8" target="8" />
       <module name="springboot-kafka" target="1.8" />
       <module name="springboot-mail" target="6" />
       <module name="springboot-mongodb" target="1.5" />
       <module name="springboot-mybatisplus" target="1.8" />
       <module name="springboot-mybatisplus (1)" target="1.8" />
+      <module name="springboot-OAuth2" target="1.8" />
       <module name="springboot-oss" target="1.5" />
       <module name="springboot-properties" target="1.8" />
       <module name="springboot-quartz" target="1.8" />
@@ -73,6 +84,10 @@
       <module name="NettyCient" options="-parameters" />
       <module name="Springbootquartz" options="-parameters" />
       <module name="collettor" options="-parameters" />
+      <module name="distributed-security-uaa" options="-parameters" />
+      <module name="distributed‐security‐eureka" options="-parameters" />
+      <module name="distributed‐security‐order" options="-parameters" />
+      <module name="distributed‐security‐zuul" options="-parameters" />
       <module name="springboot" options="-parameters" />
       <module name="springboot-banner" options="-parameters" />
       <module name="springboot-commandLineRunner" options="-parameters" />
