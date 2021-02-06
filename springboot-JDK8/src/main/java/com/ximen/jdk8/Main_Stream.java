@@ -319,6 +319,7 @@ public class Main_Stream {
         System.out.println("partition : " + partition);
 
         //最牛逼方法(集大成者)
+
         DoubleSummaryStatistics statistics = persons.stream().collect(Collectors.summarizingDouble(Person::getAge));
         System.out.println("max ：" + statistics.getMax());
         System.out.println("min " +statistics.getMin());
