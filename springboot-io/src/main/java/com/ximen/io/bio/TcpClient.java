@@ -27,7 +27,7 @@ public class TcpClient {
             is.read(b);
             System.out.println("老板说：" + new String(b).trim());
             //4.关闭
-            socket.close();
+//            socket.close();
         }
     }
 }
